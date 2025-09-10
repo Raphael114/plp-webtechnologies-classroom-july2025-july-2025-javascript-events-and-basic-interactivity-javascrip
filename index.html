@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript Events and Basic Interactivity</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <h1>JS Events & Interactivity Demo</h1>
+
+    <!-- Interactive Section 1: Color Changer -->
+    <section>
+        <h2>Change Background Color</h2>
+        <button id="colorBtn">Change Color</button>
+    </section>
+
+    <!-- Interactive Section 2: Counter -->
+    <section>
+        <h2>Counter</h2>
+        <button id="decrementBtn">-</button>
+        <span id="counterValue">0</span>
+        <button id="incrementBtn">+</button>
+    </section>
+
+    <!-- Form Section -->
+    <section>
+        <h2>Contact Form</h2>
+        <form id="contactForm" autocomplete="off">
+            <label>
+                Name:
+                <input type="text" id="nameInput" name="name">
+            </label><br>
+            <label>
+                Email:
+                <input type="text" id="emailInput" name="email">
+            </label><br>
+            <button type="submit">Submit</button>
+            <div id="formError" class="error"></div>
+        </form>
+    </section>
+
+    <script src="./js/script.js"></script>   
+</body>
+</html>
